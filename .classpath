@@ -29,5 +29,18 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="src/main/lib/asm.jar"/>
+	<classpathentry kind="lib" path="src/main/lib/cglib-2.1.jar"/>
+	<classpathentry kind="lib" path="src/main/lib/commons-collections-2.1.1.jar"/>
+	<classpathentry kind="lib" path="src/main/lib/commons-dbcp-1.2.1.jar"/>
+	<classpathentry kind="lib" path="src/main/lib/commons-lang-2.0.jar"/>
+	<classpathentry kind="lib" path="src/main/lib/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="src/main/lib/commons-pool-1.2.jar"/>
+	<classpathentry kind="lib" path="src/main/lib/dom4j-1.6.jar"/>
+	<classpathentry kind="lib" path="src/main/lib/ehcache-1.1.jar"/>
+	<classpathentry kind="lib" path="src/main/lib/geronimo-spec-jta-1.0.1B-rc2.jar"/>
+	<classpathentry kind="lib" path="src/main/lib/hibernate3.jar"/>
+	<classpathentry kind="lib" path="src/main/lib/log4j-1.2.9.jar"/>
+	<classpathentry kind="lib" path="D:/J2EE/libstool/mysql-connector-java-5.1.31/mysql-connector-java-5.1.31/mysql-connector-java-5.1.31-bin.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
