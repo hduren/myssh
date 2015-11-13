@@ -6,6 +6,8 @@ import org.apache.commons.lang.builder.ToStringBuilder;
 
 /** @author Hibernate CodeGenerator */
 public class User implements Serializable {
+	
+	
 
     /** identifier field */
     private Integer id;

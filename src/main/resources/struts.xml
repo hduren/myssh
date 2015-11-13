@@ -6,11 +6,29 @@
 <struts>
 	<constant name="struts.objectFactory" value="spring" />
 	<constant name="struts.enable.SlashesInActionNames" value="true"></constant>
+	<constant name="struts.devMode" value="true"></constant>
+		<constant name="struts.custom.i18n.resources" value="resource"></constant>
 
 	<constant name="struts.enable.DynamicMethodInvocation" value="true" />
 	<package name="struts2" extends="struts-default">
+
+				<action name="*">
+
+				<result  name="success">/WEB-INF/content/{1}.jsp</result>
+		</action>
 		<action name="hello" class="helloactionbean">
 			<result>/MyWeb.jsp</result>
+		</action>
+		<action name="para" class="paraActionbean">
+			<result>/MyWeb.jsp</result>
+		</action>
+		
+		<action name="HttpResponseAction" class="HttpResponseActionBean">
+			<result>/CookieResponse.jsp</result>
+		</action>
+		<action name="ognlActionAction" class="ognlActionActionBean">
+				 <result name="input" type="chain">ojnlRequest</result>
+				<result  name="success"  type="chain">ojnlResponse</result>
 		</action>
 	</package>
 </struts>  

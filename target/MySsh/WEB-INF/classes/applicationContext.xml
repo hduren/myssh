@@ -49,5 +49,14 @@
 	<bean id="helloactionbean" class="com.simon.myssh.HelloAction">
 		<property name="userService" ref="userService"></property>
 	</bean>
+	<bean id="paraActionbean" class="com.simon.myssh.ParaAction">
 
+	</bean>
+<bean id="HttpResponseActionBean" class="com.simon.myssh.HttpResponseAction">
+
+	</bean>
+	<bean id="ognlActionActionBean" class="com.simon.myssh.OgnlAction">
+
+	</bean>
+	
 </beans>

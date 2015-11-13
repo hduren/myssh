@@ -32,4 +32,8 @@
 			<param-value>true</param-value>
 		</init-param>
 	</filter>
+	<context-param>
+	<param-name>contextpara</param-name>
+	<param-value>paravalue</param-value>
+	</context-param>
 </web-app>
